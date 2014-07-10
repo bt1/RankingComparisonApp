@@ -13,14 +13,13 @@ Average:
 <br>
 <br>
 I created this app because it's a good way to demonstrate the problems of ranking based on quantity.  Often times, search results on the websites rank items based on their overall rating, never taking into consideration of how many ratings they have. For example, item A has 1 positive rating and 0 negative rating.  Item B has 10000 positive ratings and 100 negative ratings.
-
+<br>
 Plugging in the values for item A, we get:
 <br>
 ![ScreenShot](https://s3.amazonaws.com/ranking_app/photo+1.PNG)
 Plugging in the values for item B, we get:
 <br>
 ![screenshot](https://s3.amazonaws.com/ranking_app/photo+2.PNG)
-
 <br>
 For item A, we can see the average score is a 1.0 while the wilson score is a 0.05.  For item B, we can see the two scores are about the same.  The latter score is fine because there are lots of ratings; however, in item A, we can clearly see that the average algorithm does not consider the number of ratings (it would rank item A higher than item B).  In most cases where the quantity and quality of the ratings should come into play, the wilson's score interval should be used instead of average.
 
