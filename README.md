@@ -17,6 +17,7 @@ I created this app because it's a good way to demonstrate the problems of rankin
 Plugging in the values for item A, we get:
 <br>
 ![ScreenShot](https://s3.amazonaws.com/ranking_app/photo+1.PNG)
+<br>
 Plugging in the values for item B, we get:
 <br>
 ![screenshot](https://s3.amazonaws.com/ranking_app/photo+2.PNG)
