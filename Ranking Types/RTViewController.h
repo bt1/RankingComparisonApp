@@ -9,5 +9,11 @@
 #import <UIKit/UIKit.h>
 
 @interface RTViewController : UIViewController
+@property (strong, nonatomic) IBOutlet UILabel *wilsonScoreConfInt;
+@property (strong, nonatomic) IBOutlet UILabel *averageScore;
+@property (strong, nonatomic) IBOutlet UITextField *totalPositive;
+@property (strong, nonatomic) IBOutlet UITextField *totalNegative;
+- (IBAction)calculatePressed:(UIButton *)sender;
+- (IBAction)resetPressed:(UIButton *)sender;
 
 @end
